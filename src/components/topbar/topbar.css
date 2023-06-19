@@ -6,6 +6,7 @@
     align-items: center;
     position: sticky;
     top: 0;
+    z-index: 999;
 }
 
 .logo{
@@ -92,4 +93,12 @@
     border-radius: 50%;
     object-fit: cover;
     cursor: pointer;
+}
+
+
+.searchButton{
+    padding: 4px;
+    background-color: transparent;
+    margin-right: 4px;
+    border-radius: 20px;
 }
